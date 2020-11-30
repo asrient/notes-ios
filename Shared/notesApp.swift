@@ -12,6 +12,7 @@ struct notesApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            .environmentObject(GlobalStore())
         }
     }
 }
